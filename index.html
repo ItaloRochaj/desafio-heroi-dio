@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Heróis</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Classificador de Heróis</h1>
+        <form id="heroForm">
+            <label for="heroName">Nome do Herói:</label>
+            <input type="text" id="heroName" required>
+
+            <label for="heroXP">Experiência (XP):</label>
+            <input type="number" id="heroXP" required>
+
+            <button type="submit" class="btn">Classificar Herói</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

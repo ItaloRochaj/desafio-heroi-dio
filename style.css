@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'MedievalSharp', sans-serif;
+    background: url('https://i.imgur.com/6Gi0W8b.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f3f3f3;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(50, 50, 50, 0.8); /* Fundo escuro com transparência */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid #8b4513; /* Bordas marrons */
+}
+
+h1 {
+    text-align: center;
+    color: #d4af37; /* Dourado */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #8b4513; /* Bordas marrons */
+    border-radius: 6px;
+    transition: border-color 0.3s;
+    background: #f0e68c; /* Cor amarelada */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #d4af37; /* Dourado ao focar */
+    outline: none;
+}
+
+.btn {
+    padding: 12px;
+    background-color: #6a4f4b; /* Cor marrom escura */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #4f3d3b; /* Tom mais escuro ao passar o mouse */
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #d4af37; /* Dourado */
+    font-weight: 600;
+}

@@ -1,4 +1,3 @@
-// classificadorDeHeroi.js
 
 // Função para classificar o herói
 function classificarHeroi(nome, experiencia) {
